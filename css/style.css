@@ -1,0 +1,385 @@
+/*
+
+	red - #f80c12;
+	orange - #ff9933
+	yellow - #d0c310
+	green - #69d025
+	blue - #12bdb9
+	darkBlue - #4444dd
+	purple - #442299
+	cherry - #9E1538
+	smoky - #7E7A7A
+	violet - #EA2AEC
+
+*/
+
+
+body {
+	background-color: #322727;
+	color: #ccc;
+}
+
+.color-white {
+	color: #fff;
+}
+
+.row {
+	margin-top: 1rem;
+}
+
+#h1-title {
+	text-emphasis: after;align: center;
+	font-size: 28px;
+}
+
+#h1-title-description {
+	display: none;
+}
+
+.m-top-3 {
+	margin-top: 3rem;
+}
+
+.bigHeader {
+	width: 100%;
+}
+
+.bigHeaderDiv {
+	margin-bottom: 3rem;
+}
+
+.container-margin-bottom {
+	margin-bottom: 15rem;
+}
+
+
+/*************************************/
+/**********		navbar		**********/
+/*************************************/
+
+.bg-brown {
+	background-color: #4e3d3d!important;
+}
+
+
+
+
+
+/*************************************/
+/**********		cards		**********/
+/*************************************/
+
+
+#card-container {
+	height: 25rem;
+}
+
+#card-row {
+	height: 100%;
+}
+
+.card {
+	width: 90%;
+	height: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	transform-style: preserve-3d;
+	background-color: rgba(0,0,0,0);
+	border: none;
+}
+
+.card-body p {
+	line-height: 1;
+}
+
+.card-title {
+	position: absolute;
+	top: 20px;
+	font-size: 26px;
+}
+
+.card-title-number {
+	position: absolute;
+	bottom: 3px;
+	right: 19px;
+	font-size: 23px;
+	color: rgba(74,74,74,.6);
+}
+
+.card-text {
+	font-size: 1rem;
+}
+
+.front,
+.back {
+	display: flex;
+
+	width: 100%;
+	height: 100%;
+
+	border-radius: 7px;
+
+	justify-content: center;
+	align-items: center;
+	backface-visibility: hidden;
+}
+
+.front {
+	color: #fff;
+	background: #ff6969;
+}
+
+#frontCardText {
+	font-size: 30px;
+}
+
+#backCardDate {
+	font-size: 60px;
+}
+
+.back {
+	position: absolute;
+
+	transform: rotateY(180deg);
+
+	color: #3e3939;
+	background: #f6ff77;
+}
+
+
+
+
+
+/*************************************/
+/**********		buttons		**********/
+/*************************************/
+
+
+.button-row div {
+	margin-top: 1rem;
+}
+
+.btn-lg {
+	width: 100%;
+	height: 4rem;
+	font-size: 25px;
+}
+
+.btn-nav-indent {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+.btn-margin-top-bottom {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.btn-success {
+	box-shadow: 0 5px 0 #1a791c;
+}
+.btn-success:hover {
+	box-shadow: 0 2px 0 #1a791c;
+}
+.btn-warning {
+	background-color: #ffd65b;
+	box-shadow: 0 5px 0 #c79f29;
+}
+.btn-warning:hover {
+	background-color: #ffcf3f;
+	box-shadow: 0 2px 0 #c79f29;
+}
+.btn-danger {
+	background-color: #ff4c4c;
+	box-shadow: 0 5px 0 #b82727;
+}
+.btn-danger:hover {
+	background-color: #ff4c4c;
+	box-shadow: 0 2px 0 #b82727;
+}
+.btn-info {
+	box-shadow: 0 5px 0 #1575a7;
+}
+.btn-info:hover {
+	box-shadow: 0 2px 0 #1575a7;
+}
+.btn-secondary {
+	box-shadow: 0 5px 0 #3f4347;
+}
+.btn-secondary:hover {
+	box-shadow: 0 2px 0 #3f4347;
+}
+button:hover {
+	transform: translateY(3px);
+}
+
+.btn-next {
+	margin-bottom: 2rem;
+}
+
+
+
+
+
+/*****************************************/
+/**********		cards form		**********/
+/*****************************************/
+
+
+#form-container {
+	margin-top: 20rem;
+}
+
+#form-container .row div {
+	margin-top: 1rem;
+}
+
+
+
+
+
+
+/*************************************/
+/**********		table		**********/
+/*************************************/
+
+.table-dark {
+	background-color: #715e5e;
+	border-radius: 8px;
+	box-shadow: 0 6px 0 #4e4040;
+}
+
+tr {
+	border-color: red;
+}
+
+
+.bgRainbowRed {
+	background-color: #f80c12;
+}
+.bgRainbowOrange {
+	background-color: #ff9933;
+}
+.bgRainbowYellow {
+	background-color: #d0c310;
+}
+.bgRainbowGreen {
+	background-color: #69d025;
+}
+.bgRainbowBlue {
+	background-color: #12bdb9
+}
+.bgRainbowDarkBlue {
+	background-color: #4444dd;
+}
+.bgRainbowPurple {
+	background-color: #442299;
+}
+.bgRainbowCherry {
+	background-color: #9E1538;
+}
+.bgRainbowSmoky {
+	background-color: #7E7A7A;
+}
+.bgRainbowViolet {
+	background-color: #EA2AEC;
+}
+
+
+
+/*************************************/
+/**********		footer		**********/
+/*************************************/
+
+
+footer {
+	margin-bottom: 4rem;
+}
+
+
+
+/*************************************/
+/**********		modal		**********/
+/*************************************/
+
+.modal {
+	color: #3c3c3c;
+}
+
+.community-cipher-wrapper {
+	height: 500px;
+	overflow: auto;
+}
+
+#deleteAllCardsModal {
+	color: #ff2929;
+}
+.hover-blackout:hover {
+	color: #000;
+	background-color: #ffd;
+}
+
+#modalTableDropdownButton {
+	margin-left: 1rem;
+}
+
+
+
+
+@media only screen and (min-height: 750px) {
+	#first-container {
+		margin-top: 70px;
+	}
+}
+
+@media only screen and (min-height: 950px) {
+	#first-container {
+		margin-top: 170px;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	#frontCardTheme, #backCardTheme {
+		font-size: 20px;
+		width: 500px;
+	}
+}
+
+
+@media screen and (max-width: 770px) {
+	#frontCardTheme, #backCardTheme {
+		font-size: 15px;
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#frontCardTheme, #backCardTheme {
+		font-size: 15px;
+		width: 300px;
+	}
+	#infoButton {
+		top: 5px;
+		right: 0px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#frontCardTheme, #backCardTheme {
+		font-size: 12px;
+		width: 230px;
+	}
+	#frontCardNumber, #backCardNumber {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#frontCardTheme, #backCardTheme {
+		font-size: 10px;
+		width: 200px;
+	}
+	#frontCardNumber, #backCardNumber {
+		font-size: 17px;
+	}
+}

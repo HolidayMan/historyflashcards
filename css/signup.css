@@ -1,0 +1,52 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #322727;
+	color: #CCC;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+.form-signin input {
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+#inputPassword {
+	margin-top: 8px;
+	margin-bottom: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+#repeatPassword {
+	margin-bottom: 20px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.btn-success {
+	box-shadow: 0 5px 0 #1a791c;
+}
+.btn-success:hover {
+	box-shadow: 0 2px 0 #1a791c;
+}
